@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 300px;
+    height: 500px;
+    background: url("../img/background.png");
+    margin: 20px auto;
+    position: relative;
+}
+
+h1{
+    position: absolute;
+    top: 165px;
+    left: 60px;
+    font-size: 40px;
+
+
+}
+.start{
+    display: block;
+}
+ #kaishi{
+    position: absolute;
+    top: 250px;
+    left: 115px;
+
+}
+ .header{
+     position: relative;
+     top: 10px;
+     display: none;
+ }
+ .stop{
+     background: url("../img/resume_nor.png");
+     width: 60px;
+     height: 45px;
+     display: inline-block;
+     margin-left: 10px;
+ }
+ .score{
+     font-size: 30px;
+     color: #726f6f;
+     position: absolute;
+     top: 2px;
+     margin-left: 10px;
+
+ }
+ .my{
+     position: absolute;
+     bottom: 0px;
+     left: 180px;
+     width: 40px;
+     height: 45px;
+     display: none;
+     background: url("../img/me1.png") no-repeat;
+     background-size: 100% 100%;
+
+ }
+
+.enemys{
+   width: 40px;
+   height: 30px;
+}
